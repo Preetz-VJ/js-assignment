@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difference between var,let and const</title>
+</head>
+<body>
+    <h2>Difference between var,let and const</h2><hr/>
+    <br/>
+    <p>* var declarations are globally scoped or function scoped while let and const are block scoped.<br/>
+       * var variables can be updated and re-declared within its scope<br/> * let variables can be updated but not re-declared<br/> * const variables can neither be updated nor re-declared.<br/>
+        * They are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables are not initialized.<br/>
+       * While var and let can be declared without being initialized, const must be initialized during declaration.</p>
+       <script>
+           //Types of declaration possible in var
+           //1.string
+           var name;
+           //there will be no error 
+           var name = "Preethi"; 
+           name="GEET";
+           console.log(name);
+            //2. Number
+            var age = 21;
+            console.log(age);
+            //3. Boolean
+            var cansing = true;
+            console.log(cansing);
+            //4. Array
+            var languages = ['Hindi','English','Kannada'];
+            console.log(languages);
+            //5. Objects
+            var friends = {
+                name:"Joe",
+                hobby:"reading"
+            }
+            console.log(friends);
+            //6.null
+            var a = null;
+            console.log(a);
+            //now we will see let, it is used for local variables within a block
+            {
+                let city;// error will not be shown without initalization of variable
+                 let name = "sita"; 
+                name = "REEMA";
+                console.log("Using Let: ", name);
+                //CAN CHANGE THE VALUE AND CHANGED VALUE WILL BE SHOWN IN OUTPUT
+            }
+            console.log(name);
+            //outside of scope let can't be performed. so it display the var value
+            
+            //now we will see const
+           // const country;//error will be shown
+            const country = "India";
+            console.log(country);
+
+            // country = "UK";//can't update or change
+
+            const _fruits = ["mango", "apple","orange"]
+            console.log(_fruits)
+            _fruits.push('banana');
+            console.log(_fruits)
+            _fruits.pop('apple');
+            //can't modify the original array or replace it with another one
+            console.log(_fruits)
+
+       </script>
+</body>
+</html>

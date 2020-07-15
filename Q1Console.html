@@ -1,0 +1,84 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Types of console function in JS</title>
+    </head>
+    <body>
+        <h2>Types of console</h2><br*2/>
+
+        <p>
+            * To display message we use console.log() function   <br/> Eg: console.log("My first assignment");
+        </p>
+        <script>
+        console.log("My first assignment");
+        </script>
+         <p>
+            * To display a part of of html document console.log() function   <br/> Eg: console.log(document.head);
+        </p>
+        <script>
+        console.log(document.head);
+        </script>
+        
+        <p>
+            * To display an error we use console.error() function   <br/> Eg: console.error("an error occurred");
+        </p>
+        <script>
+            console.error("an error occurred");
+        </script>
+         <p>
+            * To display a warning message we use console.warn() function   <br/> Eg: console.warn("there is a warning");
+        </p>
+        <script>
+         console.warn("there is a warning");
+        </script>
+         <p>
+            * To display an objects we use console.log() function   <br/> Example: var a={name:"preet" , age: 21};<br/>var b={name:"geet" , age: 23};<br/>var c={name:"jeet" , age: 25};
+            <br/>Syntax: console.log({a,b,c});
+        </p>
+        <script>
+        var a={name:"preet" , age: 21};
+        var b={name:"geet" , age: 23};
+        var c={name:"jeet" , age: 25};
+        console.log({a,b,c});
+        </script>
+         <p>
+            * To display an objects in table format we use console.log() function   <br/> Example: var a={name:"preet" , age: 21};<br/>var b={name:"geet" , age: 23};<br/>var c={name:"jeet" , age: 25};
+            <br/>Syntax: console.table({a,b,c});
+        </p>
+        <script>
+        var a={name:"preet" , age: 21};
+        var b={name:"geet" , age: 23};
+        var c={name:"jeet" , age: 25};
+        console.table({a,b,c});
+        </script>
+         <p>
+            * To display an array we use console.log() function   <br/> Example: var language=[Hindi,English,Tamil,Kannada,Telugu]; <br/> var colour=['pink','blue','black','purple','green'];
+            <br/>Syntax: console.log([a,b]);
+        </p>
+        <script>
+            var language=['Hindi','English','Tamil','Kannada','Telugu']; 
+            var colour=['pink','blue','black','purple','green'];
+          console.log([language,colour]);
+
+        </script>
+         <p>
+            * To displaythe time taken to execute the script we use console.time() and console.timeEnd() function   <br/> Eg: console.time("time taken");<br/>console.timeEnd("time taken");
+        </p>
+        <script>
+         console.time("time taken");
+         var a={name:"preet" , age: 21};
+        var b={name:"geet" , age: 23};
+        var c={name:"jeet" , age: 25};
+        console.table({a,b,c});
+        console.timeEnd("time taken");
+        </script>
+          <p>
+            * To display a customize message we use console.log() function   <br/> Eg: console.log("%c custom message","color:blue");
+        </p>
+        <script>
+        console.log("%c custom message","color:blue");
+        </script>
+    </body>
+    </html>

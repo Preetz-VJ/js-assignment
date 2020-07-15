@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types</title>
+</head>
+<body>
+    <h2>Data types in Js</h2>
+   
+    <p>JavaScript variables can hold many data types: numbers, strings, objects and more:</p>
+    <p>
+        <h3>JavaScript String:</h3>
+        A string (or a text string) is a series of characters like "John Doe".<br/>
+        Strings are written with quotes. You can use single or double quotes:<br/>
+        Eg:var carName1 = "Volvo XC60";   // Using double quotes<br/>
+        var carName2 = 'Volvo XC60';   // Using single quotes
+    </p>
+    <p><h3>Javasript numbers</h3>
+        JavaScript has only one type of numbers.<br/>Numbers can be written with, or without decimals:
+        <br/>Eg:var x1 = 34.00;     // Written with decimals<br/>
+        var x2 = 34;        // Written without decimal<br/>
+        var y = 123e5;      // 12300000<br/>
+var z = 123e-5;     // 0.00123<br/>
+        </p>
+        <p><h3>Javascript Boolean</h3>
+            Booleans can only have two values: true or false<br/>Eg:var x = 5;<br/>
+            var y = 5;<br/>
+            var z = 6;<br/>
+            (x == y)       // Returns true<br/>
+            (x == z)       // Returns false</p>
+            <p><h3>JavaScript Arrays</h3>
+                JavaScript arrays are written with square brackets.<br/>
+                
+                Array items are separated by commas.<br/>
+                The following code declares (creates) an array called cars, containing three items (car names):<br/>
+                
+                Example
+                var cars = ["Saab", "Volvo", "BMW"];</p>
+                <p><h3>JavaScript Objects</h3>
+                    JavaScript objects are written with curly braces {}.<br/>
+                    
+                    Object properties are written as name:value pairs, separated by commas.<br/>
+                    
+                    Example<br/>
+                    var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};</p>
+                   
+<p><h3> Undefined</h3>
+    In JavaScript, a variable without a value, has the value undefined. The type is also undefined.<br/>
+Example<br/>
+var car;    // Value is undefined, type is undefined
+<p>
+    <h3>
+        Null
+    </h3>
+In JavaScript null is "nothing". It is supposed to be something that doesn't exist.<br/>
+
+Unfortunately, in JavaScript, the data type of null is an object.<br/>
+
+You can consider it a bug in JavaScript that typeof null is an object. It should be null.<br/>
+
+You can empty an object by setting it to null:<br/>
+
+Example<br/>
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};<br/>
+person = null;    // Now value is null, but type is still an object
+
+</p>
+</body>
+</html>
