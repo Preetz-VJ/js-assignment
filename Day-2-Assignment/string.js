@@ -1,0 +1,34 @@
+
+       /*let str = "Hello world, welcome to the universe.";
+let n = str.includes("world");
+console.log(n);*/
+// let str = "Hello world!";
+// let n=str.repeat(2);
+// console.log(n);
+//let str = "Visit Microsoft!";
+//let res = str.replace("Microsoft", "intel");
+//console.log(res);
+// let str = "Visit Schools!";
+// let n = str.search("Schools");
+// console.log(n);
+// let str = "Hello world!";
+// let res = str.slice(0, 5);
+// console.log(res);
+// let str = "Hello world!";
+// let res = str.substr(1, 4);
+// console.log(res);
+// let strr = "Hello world!";
+// let n = strr.substring(1, 4);
+// console.log(n);
+// let str = "       Hello World!     ";
+// let a=str.trim();
+// console.log(a);
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.copyWithin(2, 0));
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.fill("Kiwi"));
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let energy = fruits.join();
+// console.log(energy);
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.sort());
